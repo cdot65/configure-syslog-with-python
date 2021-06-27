@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "configure-system-syslog"
+version = "0.1.0"
+description = "Configuration your device's SYSLOG stanza with PyEZ"
+authors = ["Calvin Remsburg"]
+license = "Apache2.0"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+junos-eznc = "^2.6.1"
+jxmlease = "^1.0.3"
+invoke = "^1.5.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
